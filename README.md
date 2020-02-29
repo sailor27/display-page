@@ -1,6 +1,6 @@
 # Display Page 🛋
 
-Renders products from 
+Consumes products from JSON and renders in a list with expandable details. 
 
 ## Getting Started
 

@@ -1,11 +1,8 @@
 import React from 'react';
+import Header from './Header';
 
 function App() {
-  return (
-    <div>
-      <h1>meet our new arrivals</h1>
-    </div>
-  );
+    return <Header/>;
 }
 
 export default App;

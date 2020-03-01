@@ -1,8 +1,17 @@
-import React from 'react';
+import * as PRODUCTS from '../data/shop-all-new.json';
+import React, {useState} from 'react';
 import Header from './Header';
+import FlexGrid from './FlexGrid';
 
 function App() {
-    return <Header/>;
+    const [products] = useState(PRODUCTS.groups);
+
+    return (
+        <>
+            <Header />
+            <FlexGrid products={products} />
+        </>
+    );
 }
 
 export default App;

@@ -1,7 +1,6 @@
-import {red, yellow, indigo } from '@material-ui/core/colors';
+import {red, yellow, indigo} from '@material-ui/core/colors';
 import {createMuiTheme, responsiveFontSizes} from '@material-ui/core/styles';
 
-// A custom theme for this app
 const theme = createMuiTheme({
     palette: {
         primary: {

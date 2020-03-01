@@ -1,9 +1,21 @@
 import React from 'react';
-import {render} from '@testing-library/react';
+import ReactDOM from 'react-dom';
+import {render, cleanup} from '@testing-library/react';
 import App from './App';
 
-test('renders header text', () => {
-    const {getByText} = render(<App />);
+describe('App', () => {
+    afterEach(() => cleanup());
+    
+    test('renders without crashing', () => {
+        const div = document.createElement('div');
+        
+        ReactDOM.render(<App />, div);
+    });
 
-    expect(getByText('southeast oak')).toBeInTheDocument();
+    test('renders header text', () => {
+        expect.assertions(1);
+        const {getByText} = render(<App />);
+
+        expect(getByText('southeast oak')).toBeInTheDocument();
+    });
 });

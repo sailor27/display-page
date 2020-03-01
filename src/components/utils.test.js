@@ -1,7 +1,7 @@
-import {formatHTML} from './utils';
+import {formatHTML, isValidUrl} from './utils';
 
 describe('formatHTML', () => {
-    test('it should replace markup for ""s', () => {
+    test('should replace markup for ""s', () => {
         expect.assertions(1);
 
         const mockText = 'Urban Outdoor Sofa (81&quot;)';
@@ -10,12 +10,28 @@ describe('formatHTML', () => {
         expect(formatHTML(mockText)).toBe(result);
     });
 
-    test('it should replace markup for &s and "', () => {
+    test('should replace markup for &s and "', () => {
         expect.assertions(1);
 
-        const mockText = 'Mexa Outdoor Lounge Chair (81&quot;) &amp; Ottoman Set';
+        const mockText =
+            'Mexa Outdoor Lounge Chair (81&quot;) &amp; Ottoman Set';
         const result = 'Mexa Outdoor Lounge Chair (81") & Ottoman Set';
 
         expect(formatHTML(mockText)).toBe(result);
+    });
+});
+
+describe('isValidUrl', () => {
+    test('should return false for invalid url', () => {
+        expect.assertions(1);
+        expect(isValidUrl('')).toBe(false);
+    });
+
+    test('should return true for valid url', () => {
+        expect.assertions(1);
+        const mockUrl =
+            'https://www.westelm.com/weimgs/ab/images/wcm/products/202004/0011/coastal-outdoor-lounge-chair-m.jpg';
+            
+        expect(isValidUrl(mockUrl)).toBe(true);
     });
 });

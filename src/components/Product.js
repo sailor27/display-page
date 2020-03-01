@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {formatHTML} from './utils';
+import {formatHTML, isValidUrl} from './utils';
 import {makeStyles} from '@material-ui/core/styles';
+import ImageNotAvailable from './ImageNotAvailable'
 import {Card, CardActionArea, CardMedia, Typography} from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
@@ -49,7 +50,7 @@ function Product(props) {
     return (
         <Card className={classes.card}>
             <CardActionArea className={classes.cardAction}>
-                {href ? (
+                {isValidUrl(href) ? (
                     <>
                         <CardMedia
                             className={classes.media}
@@ -58,17 +59,7 @@ function Product(props) {
                         />
                     </>
                 ) : (
-                    <Typography
-                        gutterBottom
-                        variant="h6"
-                        component="h6"
-                        align="center"
-                    >
-                        Image not available{' '}
-                        <span role="img" aria-label="flower">
-                            🌼
-                        </span>
-                    </Typography>
+                    <ImageNotAvailable />
                 )}
                 <Typography
                     className={classes.label}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/display-page/static/js/main.bf3df145.chunk.js",
+    "main.js.map": "/display-page/static/js/main.bf3df145.chunk.js.map",
+    "runtime-main.js": "/display-page/static/js/runtime-main.e08cec9b.js",
+    "runtime-main.js.map": "/display-page/static/js/runtime-main.e08cec9b.js.map",
+    "static/css/2.afd4193a.chunk.css": "/display-page/static/css/2.afd4193a.chunk.css",
+    "static/js/2.6f567269.chunk.js": "/display-page/static/js/2.6f567269.chunk.js",
+    "static/js/2.6f567269.chunk.js.map": "/display-page/static/js/2.6f567269.chunk.js.map",
+    "index.html": "/display-page/index.html",
+    "precache-manifest.4d0b8c0ce601b9c0de3281b875f8bdd3.js": "/display-page/precache-manifest.4d0b8c0ce601b9c0de3281b875f8bdd3.js",
+    "service-worker.js": "/display-page/service-worker.js",
+    "static/css/2.afd4193a.chunk.css.map": "/display-page/static/css/2.afd4193a.chunk.css.map",
+    "static/js/2.6f567269.chunk.js.LICENSE.txt": "/display-page/static/js/2.6f567269.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/display-page/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e08cec9b.js",
+    "static/css/2.afd4193a.chunk.css",
+    "static/js/2.6f567269.chunk.js",
+    "static/js/main.bf3df145.chunk.js"
+  ]
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {render, cleanup} from '@testing-library/react';
+import {render, cleanup, fireEvent} from '@testing-library/react';
 import App from './App';
 
 describe('App', () => {
@@ -17,5 +17,25 @@ describe('App', () => {
         const {getByText} = render(<App />);
 
         expect(getByText('southeast oak')).toBeInTheDocument();
+    });
+
+    test('renders <Popover/> when product is clicked', () => {
+        expect.assertions(1);
+        const mockSelectedProduct = 'outdoor-slope-lounge-chair-h5295';
+        const popoverId = `popover-${mockSelectedProduct}`;
+        const cardId = `card-${mockSelectedProduct}`;
+        const {getByTestId} = render(<App/>);
+
+        fireEvent.click(getByTestId(cardId));
+        expect(getByTestId(popoverId)).toBeInTheDocument();
+    });
+
+    test('does not render <Popover/> when there is no product selected', () => {
+        expect.assertions(1);
+        const mockSelectedProduct = 'outdoor-slope-lounge-chair-h5295';
+        const popoverId = `popover-${mockSelectedProduct}`;
+        const {queryByTestId} = render(<App />);
+
+        expect(queryByTestId(popoverId)).toBe(null);
     });
 });

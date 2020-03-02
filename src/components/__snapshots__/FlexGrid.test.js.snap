@@ -7,6 +7,7 @@ exports[`FlexGrid matches snapshot 1`] = `
   >
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-105 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-urban-summer-outdoor-2-piece-chaise-sectional-h5281"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -38,6 +39,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     </div>
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-107 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-urban-summer-outdoor-sofa-81-h5277"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -69,6 +71,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     </div>
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-109 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-urban-summer-outdoor-lounge-chair-h5279"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -100,6 +103,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     </div>
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-111 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-urban-summer-outdoor-chaise-lounger-h5280"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -131,6 +135,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     </div>
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-113 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-porto-outdoor-sofa-76-h5291"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -162,6 +167,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     </div>
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-115 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-porto-outdoor-lounge-chair-h5290"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -193,6 +199,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     </div>
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-117 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-coastal-outdoor-sofa-76-h5288"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -224,6 +231,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     </div>
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-119 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-coastal-outdoor-lounge-chair-h5287"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -255,6 +263,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     </div>
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-121 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-outdoor-slope-lounge-chair-h5295"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -286,6 +295,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     </div>
     <div
       class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-123 MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="card-mexa-outdoor-lounge-chair-ottoman-set-h5338"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"

@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     }
 });
 
-function FlexGrid({products}) {
+function FlexGrid({products, handleSelectProduct}) {
     const classes = useStyles();
 
     return (
@@ -22,6 +22,7 @@ function FlexGrid({products}) {
                 <Product
                     key={product.id}
                     product={product}
+                    handleSelectProduct={handleSelectProduct}
                 />
             ))}
         </div>
@@ -30,6 +31,7 @@ function FlexGrid({products}) {
 
 FlexGrid.propTypes = {
     products: PropTypes.array,
+    handleSelectProduct: PropTypes.func,
 };
 
 export default FlexGrid;

@@ -44,6 +44,7 @@ const useStyles = makeStyles(theme => ({
 function Product(props) {
     const classes = useStyles(props);
     const {
+        handleSelectProduct,
         product: {
             name = '',
             id = '',
@@ -58,7 +59,11 @@ function Product(props) {
     } = props;
 
     return (
-        <Card className={classes.card}>
+        <Card
+            className={classes.card}
+            data-testid={`card-${id}`}
+            onClick={e => handleSelectProduct(e, id)}
+        >
             <CardActionArea className={classes.cardAction}>
                 {isValidUrl(href) ? (
                     <>
@@ -93,6 +98,7 @@ function Product(props) {
 }
 
 Product.propTypes = {
+    handleSelectProduct: PropTypes.func,
     product: PropTypes.shape({
         name: PropTypes.string.isRequired,
         id: PropTypes.string.isRequired,

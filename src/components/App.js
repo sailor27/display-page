@@ -37,7 +37,7 @@ function App() {
                 //use local file if request fails
                 setProducts(PRODUCTS.groups);
             });
-    });
+    }, []);
 
     const [selectedProduct, setSelectedProduct] = useState('');
     const [anchorEl, setAnchorEl] = useState(undefined);

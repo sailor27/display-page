@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://westelm.com",
+  "homepage": "http://sailor27.github.io/display-page",
   "jest": {
     "collectCoverageFrom": [
       "src/components/**/*.{js,jsx}",
@@ -41,7 +42,9 @@
     "test": "react-scripts test --coverage --watchAll",
     "eject": "react-scripts eject",
     "lint": "eslint src/**.js",
-    "lint:fix": "eslint --fix -c .eslintrc.json 'src/**/*.js'"
+    "lint:fix": "eslint --fix -c .eslintrc.json 'src/**/*.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -60,6 +63,7 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0",
+    "gh-pages": "^2.2.0",
     "http-proxy-middleware": "^1.0.1"
   }
 }

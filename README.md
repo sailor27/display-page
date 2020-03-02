@@ -39,6 +39,10 @@ You can bypass the CORS policy by running Google Chrome with security disabled. 
  $ `` open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
 ``
 
+To view the project in the browser, run:
+$`` npm start`` 
+and open localhost:3000 in your security-disabled Chrome window.
+
 ## Running the tests
 
 This project includes unit tests written using Jest and React Testing Library. To run tests in watch mode, open the terminal and run:
@@ -71,6 +75,12 @@ This project uses Google's [Material-UI](https://material-ui.com/) component lib
 * Responsive css and accessibility features built-in
 * Ability to provide custom theming to the entire app
 * Ability to dynamically style components based on props and theme
+
+## Deploying
+
+This app is deployed to gh-pages and can be viewed on the web at: ["http://sailor27.github.io/display-page"]("http://sailor27.github.io/display-page");
+
+To update the deployed branch, merge changes into master locally, and then run ``npm run deploy`` to update the deployed branch.
 
 ## Authors
 

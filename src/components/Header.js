@@ -1,20 +1,20 @@
 import React from 'react';
 import {makeStyles, Typography} from '@material-ui/core';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
     root: {
         minHeight: 50,
         display: 'flex',
         flexFlow: 'column nowrap',
         alignItems: 'center',
-        background: '#fff',
+        background: theme.palette.background.default,
         justifyContent: 'center',
         position: 'fixed',
         top: 0,
         width: '100%',
         zIndex: 2,
     },
-});
+}));
 
 function Header() {
     const classes = useStyles();

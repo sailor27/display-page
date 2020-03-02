@@ -12,6 +12,7 @@ const useStyles = makeStyles(theme => ({
         margin: 15,
         display: 'flex',
         justifyContent: 'center',
+        border: theme.palette.primary.main !== '#212121' ? `3px solid ${theme.palette.error.main}` : 'none',
     }),
     cardAction: {
         objectFit: 'cover',

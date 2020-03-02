@@ -1,7 +1,7 @@
-import {red, yellow, indigo} from '@material-ui/core/colors';
+import {red, yellow, indigo, pink} from '@material-ui/core/colors';
 import {createMuiTheme, responsiveFontSizes} from '@material-ui/core/styles';
 
-const theme = createMuiTheme({
+let theme = createMuiTheme({
     palette: {
         primary: {
             main: '#212121',
@@ -23,7 +23,7 @@ const theme = createMuiTheme({
         },
     },
 });
-/* eslint-disable-next-line no-unused-vars */
+
 const altTheme = createMuiTheme({
     palette: {
         primary: {
@@ -33,13 +33,15 @@ const altTheme = createMuiTheme({
             main: yellow.A400,
         },
         error: {
-            main: red.A400,
+            main: pink.A200,
         },
         background: {
             default: '#fff',
         },
     },
-
 });
+
+// show ~30% of users a colorful theme! 🌈
+theme = Math.random() < 0.7 ? theme : altTheme;
 
 export default responsiveFontSizes(theme);

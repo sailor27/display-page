@@ -55,7 +55,7 @@ const useStyles = makeStyles({
     },
 });
 
-const Carousel = ({images}) => {
+function Carousel({images}) {
     const classes = useStyles();
     const circle = React.createElement(
         'div',
@@ -84,7 +84,7 @@ const Carousel = ({images}) => {
             ></AwesomeSlider>
         </div>
     );
-};
+}
 
 Carousel.propTypes = {
     images: PropTypes.array.isRequired,

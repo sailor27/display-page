@@ -1,6 +1,7 @@
 import * as PRODUCTS from '../data/shop-all-new.json';
+import axios from 'axios';
 import {makeStyles, Popover} from '@material-ui/core';
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Header from './Header';
 import FlexGrid from './FlexGrid';
 import Carousel from './Carousel';
@@ -16,15 +17,33 @@ const useStyles = makeStyles({
     },
 });
 
+const API =
+    'https://www.westelm.com/services/catalog/v4/category/shop/new/all-new/index.json';
+
 function App() {
-    const [products] = useState(PRODUCTS.groups);
+    const [products, setProducts] = useState(PRODUCTS.groups);
+
+    useEffect(() => {
+        axios
+            .get(API)
+            .then(result => {
+                const {
+                    data: {groups},
+                } = result;
+
+                setProducts(groups);
+            })
+            .catch(() => {
+                //use local file if request fails
+                setProducts(PRODUCTS.groups);
+            });
+    });
+
     const [selectedProduct, setSelectedProduct] = useState('');
     const [anchorEl, setAnchorEl] = useState(undefined);
     const [popOver, setPopOver] = useState(false);
     const classes = useStyles();
-    const selectedProductData = products.find(
-        p => p.id === selectedProduct
-    );
+    const selectedProductData = products.find(p => p.id === selectedProduct);
 
     function handleSelectProduct(e, id) {
         setSelectedProduct(id);

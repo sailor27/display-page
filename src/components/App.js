@@ -3,6 +3,7 @@ import {makeStyles, Popover} from '@material-ui/core';
 import React, {useState} from 'react';
 import Header from './Header';
 import FlexGrid from './FlexGrid';
+import Carousel from './Carousel';
 
 const useStyles = makeStyles({
     root: {
@@ -44,27 +45,29 @@ function App() {
                 products={products}
                 handleSelectProduct={handleSelectProduct}
             />
-            <Popover
-                data-testid={`popover-${selectedProduct}`}
-                classes={{
-                    root: classes.root,
-                    paper: classes.paper,
-                }}
-                id={selectedProduct}
-                open={popOver}
-                anchorEl={anchorEl}
-                onClose={handleClose}
-                anchorOrigin={{
-                    vertical: 'top',
-                    horizontal: 'center',
-                }}
-                transformOrigin={{
-                    vertical: 'top',
-                    horizontal: 'center',
-                }}
-            >
-                {selectedProductData && selectedProductData.name}
-            </Popover>
+            {selectedProductData && (
+                <Popover
+                    data-testid={`popover-${selectedProduct}`}
+                    classes={{
+                        root: classes.root,
+                        paper: classes.paper,
+                    }}
+                    id={selectedProduct}
+                    open={popOver}
+                    anchorEl={anchorEl}
+                    onClose={handleClose}
+                    anchorOrigin={{
+                        vertical: 'top',
+                        horizontal: 'center',
+                    }}
+                    transformOrigin={{
+                        vertical: 'top',
+                        horizontal: 'center',
+                    }}
+                >
+                    <Carousel images={selectedProductData.images} />
+                </Popover>
+            )}
         </>
     );
 }

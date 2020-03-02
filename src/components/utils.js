@@ -30,3 +30,11 @@ export function getDisplayPrice(price, priceRange) {
         return `$${low} - $${high}`;
     } else return '';
 }
+
+export function isMobile() {
+    const mobile = 'screen and (min-width: 320px) and (max-width: 767px)';
+
+    if (window.matchMedia) return window.matchMedia(mobile).matches;
+    return false;
+}
+

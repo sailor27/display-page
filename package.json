@@ -2,7 +2,7 @@
   "name": "display-page",
   "version": "0.1.0",
   "private": true,
-    "jest": {
+  "jest": {
     "collectCoverageFrom": [
       "src/components/**/*.{js,jsx}",
       "!<rootDir>/node_modules/",
@@ -10,13 +10,15 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": 60,
-        "functions": 89,
-        "lines": 89,
-        "statements": 89
+        "branches": 68,
+        "functions": 85,
+        "lines": 85,
+        "statements": 85
       }
     },
-    "coverageReporters": ["text"]
+    "coverageReporters": [
+      "text"
+    ]
   },
   "dependencies": {
     "@material-ui/core": "^4.9.4",
@@ -25,6 +27,7 @@
     "@testing-library/user-event": "^7.1.2",
     "jest-dom": "^4.0.0",
     "react": "^16.13.0",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
     "react-testing-library": "^8.0.1",

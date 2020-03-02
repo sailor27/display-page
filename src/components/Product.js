@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {formatHTML, isValidUrl} from './utils';
+import {formatHTML, isValidUrl, getDisplayPrice} from './utils';
 import {makeStyles} from '@material-ui/core/styles';
-import ImageNotAvailable from './ImageNotAvailable'
+import ImageNotAvailable from './ImageNotAvailable';
 import {Card, CardActionArea, CardMedia, Typography} from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
@@ -24,10 +24,20 @@ const useStyles = makeStyles(theme => ({
         position: 'absolute',
         top: 0,
         width: '100%',
-        // backgroundColor: theme.palette.secondary.main,
-        backgroundColor: '#eaeaea',
+        color: theme.palette.secondary.contrastText,
+        backgroundColor: theme.palette.secondary.main,
         opacity: 0.95,
         padding: 10,
+    },
+    priceTag: {
+        position: 'absolute',
+        top: '85%',
+        left: 10,
+        color: theme.palette.primary.contrastText,
+        backgroundColor: theme.palette.primary.main,
+        opacity: 0.8,
+        borderRadius: 4,
+        padding: 6,
     },
 }));
 
@@ -37,13 +47,13 @@ function Product(props) {
         product: {
             name = '',
             id = '',
-            hero: {href, height, width} = {
+            hero: {href} = {
                 href: '',
                 height: 363,
                 width: 363,
             },
-            price: {regular, selling} = {},
-            priceRange: {selling: {high, low}} = {selling: {}},
+            price = {},
+            priceRange = {},
         },
     } = props;
 
@@ -63,11 +73,19 @@ function Product(props) {
                 )}
                 <Typography
                     className={classes.label}
-                    variant="h6"
+                    variant="button"
                     component="h6"
                     align="left"
                 >
                     {formatHTML(name)}
+                </Typography>
+                <Typography
+                    className={classes.priceTag}
+                    variant="button"
+                    component="h6"
+                    align="left"
+                >
+                    {getDisplayPrice(price, priceRange)}
                 </Typography>
             </CardActionArea>
         </Card>

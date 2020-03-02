@@ -18,3 +18,15 @@ export function isValidUrl(string) {
 
     return pattern.test(string);
 }
+
+export function getDisplayPrice(price, priceRange) {
+    if (price.selling) return `$${price.selling}`;
+    if (price.regular) return `$${price.regular}`;
+    if (priceRange) {
+        const {
+            selling: {high, low},
+        } = priceRange;
+
+        return `$${low} - $${high}`;
+    } else return '';
+}

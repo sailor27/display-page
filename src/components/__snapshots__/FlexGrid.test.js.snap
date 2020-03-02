@@ -6,7 +6,7 @@ exports[`FlexGrid matches snapshot 1`] = `
     class="makeStyles-root-1"
   >
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-104 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-105 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -14,14 +14,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-105"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-106"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202005/0001/urban-summer-outdoor-2-piece-chaise-sectional-m.jpg);"
           title="Urban Outdoor 2-Piece Chaise Sectional"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Urban Outdoor 2-Piece Chaise Sectional
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $2799
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -32,7 +37,7 @@ exports[`FlexGrid matches snapshot 1`] = `
       </button>
     </div>
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-106 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-107 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -40,14 +45,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-107"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-108"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202005/0002/urban-summer-outdoor-sofa-81-1-m.jpg);"
           title="Urban Outdoor Sofa (81&quot;)"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Urban Outdoor Sofa (81")
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $1799
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -58,7 +68,7 @@ exports[`FlexGrid matches snapshot 1`] = `
       </button>
     </div>
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-108 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-109 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -66,14 +76,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-109"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-110"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202008/0004/urban-outdoor-lounge-chair-m.jpg);"
           title="Urban Outdoor Lounge Chair"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Urban Outdoor Lounge Chair
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $949 - $1898
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -84,7 +99,7 @@ exports[`FlexGrid matches snapshot 1`] = `
       </button>
     </div>
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-110 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-111 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -92,14 +107,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-111"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-112"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202008/0019/urban-outdoor-chaise-lounger-1-m.jpg);"
           title="Urban Outdoor Chaise Lounger"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Urban Outdoor Chaise Lounger
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $1299
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -110,7 +130,7 @@ exports[`FlexGrid matches snapshot 1`] = `
       </button>
     </div>
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-112 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-113 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -118,14 +138,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-113"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-114"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202005/0001/porto-outdoor-sofa-76-m.jpg);"
           title="Porto Outdoor Sofa (76&quot;)"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Porto Outdoor Sofa (76")
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $1899
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -136,7 +161,7 @@ exports[`FlexGrid matches snapshot 1`] = `
       </button>
     </div>
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-114 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-115 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -144,14 +169,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-115"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-116"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202005/0003/porto-outdoor-lounge-chair-m.jpg);"
           title="Porto Outdoor Lounge Chair"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Porto Outdoor Lounge Chair
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $949 - $1898
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -162,7 +192,7 @@ exports[`FlexGrid matches snapshot 1`] = `
       </button>
     </div>
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-116 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-117 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -170,14 +200,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-117"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-118"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202005/0001/coastal-outdoor-sofa-76-1-m.jpg);"
           title="Coastal Outdoor Sofa (76&quot;)"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Coastal Outdoor Sofa (76")
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $1699
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -188,7 +223,7 @@ exports[`FlexGrid matches snapshot 1`] = `
       </button>
     </div>
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-118 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-119 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -196,14 +231,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-119"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-120"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202005/0001/coastal-outdoor-lounge-chair-m.jpg);"
           title="Coastal Outdoor Lounge Chair"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Coastal Outdoor Lounge Chair
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $899 - $1798
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -214,7 +254,7 @@ exports[`FlexGrid matches snapshot 1`] = `
       </button>
     </div>
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-120 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-121 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -222,14 +262,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-121"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-122"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202005/0002/outdoor-slope-lounge-chair-m.jpg);"
           title="Outdoor Slope Lounge Chair"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Outdoor Slope Lounge Chair
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $399 - $798
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -240,7 +285,7 @@ exports[`FlexGrid matches snapshot 1`] = `
       </button>
     </div>
     <div
-      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-122 MuiPaper-elevation1 MuiPaper-rounded"
+      class="MuiPaper-root MuiCard-root makeStyles-card-2 makeStyles-card-123 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <button
         class="MuiButtonBase-root MuiCardActionArea-root makeStyles-cardAction-3"
@@ -248,14 +293,19 @@ exports[`FlexGrid matches snapshot 1`] = `
         type="button"
       >
         <div
-          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-123"
+          class="MuiCardMedia-root makeStyles-media-4 makeStyles-media-124"
           style="background-image: url(https://www.westelm.com/weimgs/ab/images/wcm/products/202006/0015/img23m.jpg);"
           title="Mexa Outdoor Lounge Chair &amp; Ottoman Set"
         />
         <h6
-          class="MuiTypography-root makeStyles-label-5 MuiTypography-h6 MuiTypography-alignLeft"
+          class="MuiTypography-root makeStyles-label-5 MuiTypography-button MuiTypography-alignLeft"
         >
           Mexa Outdoor Lounge Chair & Ottoman Set
+        </h6>
+        <h6
+          class="MuiTypography-root makeStyles-priceTag-6 MuiTypography-button MuiTypography-alignLeft"
+        >
+          $899
         </h6>
         <span
           class="MuiCardActionArea-focusHighlight"
